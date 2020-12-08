@@ -1,7 +1,7 @@
 <template>
   <article>
     <div>
-
+    Reputation
     </div>
   </article>
 </template>

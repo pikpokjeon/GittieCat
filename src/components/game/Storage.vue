@@ -1,7 +1,9 @@
 <template>
+  <article>
     <div>
-
+    Storage
     </div>
+  </article>
 </template>
 <script>
 export default {

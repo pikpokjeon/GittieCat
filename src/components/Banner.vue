@@ -1,13 +1,14 @@
 <template>
 <div>
-  
+
   <!-- 기본배너 -->
   <nav>
+    Banner
   </nav>
 
   <!-- 스크롤시 바뀌는 배너 -->
-  <nav>
-  </nav>
+  <!-- <nav>
+  </nav> -->
 </div>
 
 </template>

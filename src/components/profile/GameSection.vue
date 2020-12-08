@@ -1,5 +1,6 @@
 <template>
   <section>
+    GameSection
     <CharacterSpace></CharacterSpace>
     <StatusBox></StatusBox>
     <Storage></Storage>

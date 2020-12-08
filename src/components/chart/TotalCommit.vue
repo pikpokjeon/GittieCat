@@ -1,9 +1,9 @@
 <template>
-  <section>
+  <article>
     <div>
-
+    TotalCommit
     </div>
-  </section>
+  </article>
 </template>
 <script>
 export default {

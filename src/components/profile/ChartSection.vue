@@ -1,5 +1,6 @@
 <template>
   <section>
+    ChartSection
     <MostUsed></MostUsed>
     <TotalCommit></TotalCommit>
     <Repository></Repository>

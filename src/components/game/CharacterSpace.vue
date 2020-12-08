@@ -1,7 +1,9 @@
 <template>
+  <article>
     <div>
-
+    CharacterSpace
     </div>
+  </article>
 </template>
 <script>
 export default {

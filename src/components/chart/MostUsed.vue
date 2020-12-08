@@ -1,9 +1,9 @@
 <template>
-  <section>
+  <article>
     <div>
-
+    MostUsed
     </div>
-  </section>
+  </article>
 </template>
 <script>
 export default {

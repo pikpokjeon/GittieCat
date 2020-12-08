@@ -1,7 +1,9 @@
 <template>
+  <article>
     <div>
-
+    StatusBox
     </div>
+  </article>
 </template>
 <script>
 export default {

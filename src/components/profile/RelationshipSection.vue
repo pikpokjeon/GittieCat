@@ -1,5 +1,6 @@
 <template>
   <section>
+    RelationshipSection
     <Relationship></Relationship>
     <Reputation></Reputation>
     
