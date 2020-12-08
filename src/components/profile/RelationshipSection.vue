@@ -1,18 +1,18 @@
 <template>
   <section>
-    <CharacterSpace></CharacterSpace>
-    <StatusBox></StatusBox>
+    <Relationship></Relationship>
+    <Reputation></Reputation>
     
   </section>
 </template>
 <script>
-import CharacterSpace from '../chart/CharacterSpace'
-import StatusBox from '../chart/StatusBox'
+import Relationship from '../chart/Relationship'
+import Reputation from '../board/Reputation'
 
 export default {
   components:{
-    CharacterSpace,
-    StatusBox
+    Relationship,
+    Reputation
 
   }
   
