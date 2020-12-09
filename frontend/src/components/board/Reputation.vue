@@ -1,15 +1,9 @@
 <template>
-  <article>
-    <div>
-    Reputation
-    </div>
-  </article>
+	<article>
+		<div>Reputation</div>
+	</article>
 </template>
 <script>
-export default {
-  
-}
+export default {};
 </script>
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
