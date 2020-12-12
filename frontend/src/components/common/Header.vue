@@ -2,6 +2,7 @@
 	<div>
 		<header>
 			<nav>GittieCat</nav>
+			<nav>Login</nav>
 		</header>
 	</div>
 </template>
