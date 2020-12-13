@@ -9,15 +9,26 @@
 
 <script>
 import Card from '../common/Card.vue';
+import axios from 'axios';
 
 export default {
 	components: { Card },
 	data() {
 		return {
-			query: this.$route.query
+			query: this.$route.query,
+	
 		};
 	},
 	mounted() {
+		const data = {
+			code : this.query.code,
+			client_id: "0e9ce3e69ff338443e2c",
+			client_secret: "bb84225728c32f251daa05631d4f32f143a7d790"
+			};
+		axios.post('https://github.com/login/oauth/access_token',data)
+					.then((data) => console.log(data))
+					.catch((err)=>console.log(err))
+
 	},
 	methods: {
 
