@@ -10,15 +10,14 @@
 </template>
 <script>
 export default {
-	methods:{
-		moveToLoginPage(){
-			this.$router.push('/login')
+	methods: {
+		moveToLoginPage() {
+			this.$router.push('/login');
 		},
-		moveToProfilePage(){
-			this.$router.push('/')
-		}
-	}
-
+		moveToProfilePage() {
+			this.$router.push('/');
+		},
+	},
 };
 </script>
 <style lang="scss" scoped>

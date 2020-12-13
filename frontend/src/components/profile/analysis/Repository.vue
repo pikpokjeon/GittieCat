@@ -92,5 +92,6 @@ export default {
 <style lang="scss" scoped>
 .repositoryChart {
 	padding: 10px;
+	max-width: 500px;
 }
 </style>

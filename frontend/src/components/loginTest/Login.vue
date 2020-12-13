@@ -14,13 +14,8 @@ export default {
 	components: { Card },
 	data() {
 		return {
-			query: this.$route.query
+			query: this.$route.query,
 		};
-	},
-	mounted() {
-	},
-	methods: {
-
 	},
 };
 </script>
