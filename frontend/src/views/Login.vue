@@ -10,7 +10,7 @@ export default {
   components:{
     Regist
   }
-};
+
 </script>
 
 <style lang="scss" scoped>

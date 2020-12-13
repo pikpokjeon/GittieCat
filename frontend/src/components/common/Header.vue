@@ -2,12 +2,22 @@
 	<div>
 		<header>
 			<nav>GittieCat</nav>
-			<nav>Login</nav>
+			<nav @click="moveToLoginPage">Login</nav>
 		</header>
 	</div>
 </template>
 <script>
-export default {};
+export default {
+	methods:{
+		moveToLoginPage(){
+			this.$router.push('/login')
+
+
+
+		}
+	}
+
+};
 </script>
 <style lang="scss" scoped>
 header {
