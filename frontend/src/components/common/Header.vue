@@ -2,14 +2,14 @@
 	<div>
 		<header>
 			<nav>GittieCat</nav>
-			<nav @click="showLoginBox">Login</nav>
+			<nav @click="moveToLoginPage">Login</nav>
 		</header>
 	</div>
 </template>
 <script>
 export default {
 	methods:{
-		showLoginBox(){
+		moveToLoginPage(){
 			this.$router.push('/login')
 
 
