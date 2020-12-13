@@ -33,6 +33,7 @@ export default {
 			const canvas = d3
 				.select('.repositoryChart')
 				.append('svg')
+				.style('max-width', 500)
 				.attr('viewBox', [0, 0, this.width, this.height]);
 
 			const margin = { left: 80, top: 30, right: 10, bottom: 10 };
@@ -92,6 +93,6 @@ export default {
 <style lang="scss" scoped>
 .repositoryChart {
 	padding: 10px;
-	max-width: 500px;
+	text-align: center;
 }
 </style>
