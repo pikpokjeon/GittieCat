@@ -25,7 +25,7 @@ export default {
 			client_id: "0e9ce3e69ff338443e2c",
 			client_secret: "bb84225728c32f251daa05631d4f32f143a7d790"
 			};
-		axios.post('https://github.com/login/oauth/access_token',data)
+		axios.post('/git/getToken',data)
 					.then((data) => console.log(data))
 					.catch((err)=>console.log(err))
 
