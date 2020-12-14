@@ -10,19 +10,17 @@ export default {
 			width: 400,
 			height: 300,
 			margin: { top: 30, right: 0, bottom: 10, left: 30 },
-			data: {
-				data: [
-					{ name: 'HTML', value: 30 },
-					{ name: 'CSS', value: 15 },
-					{ name: 'JAVASCRIPT', value: 24 },
-					{ name: 'SASS', value: 40 },
-					{ name: 'VUE', value: 50 },
-					{ name: 'REACT', value: 18 },
-					{ name: 'ANGULAR', value: 17 },
-					{ name: 'TYPESCRIPT', value: 4 },
-				],
-				format: '%',
-			},
+			data: [
+				{ name: 'HTML', value: 30 },
+				{ name: 'CSS', value: 15 },
+				{ name: 'JAVASCRIPT', value: 24 },
+				{ name: 'SASS', value: 40 },
+				{ name: 'VUE', value: 50 },
+				{ name: 'REACT', value: 18 },
+				{ name: 'ANGULAR', value: 17 },
+				{ name: 'TYPESCRIPT', value: 4 },
+			],
+			format: '%',
 		};
 	},
 	mounted() {
@@ -39,11 +37,11 @@ export default {
 			const margin = { left: 80, top: 30, right: 10, bottom: 10 };
 			const x = d3
 				.scaleLinear()
-				.domain([0, d3.max(this.data.data, d => d.value)])
+				.domain([0, d3.max(this.data, d => d.value)])
 				.range([margin.left, this.width - margin.right]);
 			const y = d3
 				.scaleBand()
-				.domain(d3.range(this.data.data.length))
+				.domain(d3.range(this.data.length))
 				.rangeRound([margin.top, this.height - margin.bottom])
 				.padding(0.1);
 
@@ -55,11 +53,11 @@ export default {
 			const yAxis = g =>
 				g
 					.attr('transform', `translate(${margin.left},0)`)
-					.call(d3.axisLeft(y).tickFormat(i => this.data.data[i].name));
+					.call(d3.axisLeft(y).tickFormat(i => this.data[i].name));
 			canvas
 				.append('g')
 				.selectAll('rect')
-				.data(this.data.data)
+				.data(this.data)
 				.join('rect')
 				.attr('x', x(0))
 				.attr('y', (d, i) => y(i))
@@ -74,7 +72,7 @@ export default {
 				.attr('font-family', 'sans-serif')
 				.attr('font-size', 12)
 				.selectAll('text')
-				.data(this.data.data)
+				.data(this.data)
 				.join('text')
 				.attr('x', d => x(d.value))
 				.attr('y', (d, i) => y(i) + y.bandwidth() / 2)
