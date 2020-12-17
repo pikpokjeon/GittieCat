@@ -1,5 +1,7 @@
 <template>
-	<article>Regist</article>
+	<article>Regist
+		
+	</article>
 </template>
 
 <script>
