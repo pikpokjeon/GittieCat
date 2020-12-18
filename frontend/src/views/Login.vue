@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Regist from '../components/etc/Regist'
+import Regist from '@/components/etc/Regist'
 
 export default {
   components:{
