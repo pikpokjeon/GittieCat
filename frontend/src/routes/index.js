@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Profile from '@/views/Profile.vue';
-import Login from '@/components/loginTest/Login.vue';
+// import Login from '@/components/loginTest/Login.vue';
 import Login from '@/views/Login.vue';
 
 Vue.use(VueRouter);
@@ -16,9 +16,6 @@ export const router = new VueRouter({
 			path: '/login',
 			component: Login, //깃헙 로그인 연동후 리다이렉트 되는 곳 (추가정보 입력)
 		},
-		{
-			path: '/login',
-			component: Login,
-		},
+
 	],
 });
