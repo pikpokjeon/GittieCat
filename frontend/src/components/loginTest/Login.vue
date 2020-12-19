@@ -16,6 +16,10 @@ export default {
 	data() {
 		return {
 			query: this.$route.query,
+<<<<<<< HEAD
+		};
+	},
+=======
 	
 		};
 	},
@@ -33,6 +37,7 @@ export default {
 	methods: {
 
 	},
+>>>>>>> 3e343ea458a3156cca05598d0a1cd2903e46989a
 };
 </script>
 
