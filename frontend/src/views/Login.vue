@@ -1,6 +1,7 @@
 <template>
-	<article>Login</article>
-  <article><Regist></Regist></article>
+	<article>Login
+    <Regist></Regist>
+  </article>
 </template>
 
 <script>
@@ -10,7 +11,7 @@ export default {
   components:{
     Regist
   }
-
+}
 </script>
 
 <style lang="scss" scoped>
