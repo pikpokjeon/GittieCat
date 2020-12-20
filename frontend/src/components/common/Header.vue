@@ -2,9 +2,11 @@
 	<div>
 		<header>
 			<!-- 상단메뉴 구성 미정 -->
-			<nav>GittieCat</nav>
-			<nav @click="moveToLoginPage">Login</nav>
-			<nav @click="moveToProfilePage">Profile</nav>
+			<nav>
+				<p>GittieCat</p>
+				<p @click="moveToLoginPage">Login/Settings</p>
+				<p @click="moveToProfilePage">Profile</p>
+			</nav>
 		</header>
 	</div>
 </template>
