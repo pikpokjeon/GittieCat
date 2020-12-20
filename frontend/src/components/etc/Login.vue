@@ -21,7 +21,7 @@ export default {
       client_secret: 'bb84225728c32f251daa05631d4f32f143a7d790',
     };
     axios
-      .post('/git/getToken', data)
+      .post('http://52.79.191.158:8080/git/getToken', data)
       .then((data) => console.log(data))
       .catch((err) => console.log(err));
   },
