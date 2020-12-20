@@ -13,6 +13,10 @@ export const router = new VueRouter({
 			path: '/',
 			component: Profile, //우선 개발해야 하는 페이지를 루트로
 		},
+		{
+			path: '/login',
+			component: Login, //우선 개발해야 하는 페이지를 루트로
+		},
 
 	],
 });
