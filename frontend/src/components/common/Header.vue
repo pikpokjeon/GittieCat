@@ -14,9 +14,7 @@
 export default {
 	methods: {
 		moveToLoginPage() {
-					window.open(
-				'https://github.com/login/oauth/authorize?client_id=0e9ce3e69ff338443e2c&redirect_uri=http://localhost:8081/login',
-			);
+				location.href ='https://github.com/login/oauth/authorize?client_id=0e9ce3e69ff338443e2c&redirect_uri=http://localhost:8081/login'
 		},
 		moveToProfilePage() {
 			this.$router.push('/');

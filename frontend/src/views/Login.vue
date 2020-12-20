@@ -22,6 +22,6 @@ export default {
 
 <style lang="scss" scoped>
 article {
-	// background: purple;
+  
 }
 </style>
