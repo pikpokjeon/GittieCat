@@ -1,5 +1,5 @@
 <template>
-  <article>Settings</article>
+	<article>Settings</article>
 </template>
 
 <script>
@@ -8,7 +8,7 @@ export default {};
 
 <style lang="scss" scoped>
 article {
-  border: solid 1px blue;
-  padding: 50px;
+	border: solid 1px blue;
+	padding: 50px;
 }
 </style>

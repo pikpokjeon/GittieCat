@@ -1,8 +1,8 @@
 <template>
-  <article>
-    <div><label>Nickname</label><input type="text" /></div>
-    <div class="button">Update</div>
-  </article>
+	<article>
+		<div><label>Nickname</label><input type="text" /></div>
+		<div class="button">Update</div>
+	</article>
 </template>
 
 <script>
@@ -11,10 +11,10 @@ export default {};
 
 <style lang="scss" scoped>
 article {
-  border: solid 1px blue;
-  padding: 50px;
+	border: solid 1px blue;
+	padding: 50px;
 }
-.button{
+.button {
 	width: 80px;
 	padding: 5px;
 	// background: cadetblue;
